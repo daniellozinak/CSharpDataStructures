@@ -153,10 +153,7 @@ namespace DataStructures
             return this._head == null;
         }
 
-        public void Dispose()
-        {
-            Console.WriteLine("somethings wrong");
-        }
+        public void Dispose(){ }
 
         public bool MoveNext()
         {
